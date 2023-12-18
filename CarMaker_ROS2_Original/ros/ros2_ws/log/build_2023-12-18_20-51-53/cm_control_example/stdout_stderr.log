@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target cm_control_example[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+   27 | void vehicleInfoCallback(const std_msgs::msg::Float64MultiArray[01;31m[K:[m[K;SharedPtr msg)
+      |                                                                [01;31m[K^[m[K
+
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   27 | void vehicleInfoCallback[34m[K([m[Kconst std_msgs::msg::Float64MultiArray:[01;31m[K;[m[KSharedPtr msg)
+      |                         [34m[K~[m[K                                       [01;31m[K^[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 | foCallback(const std_msgs::msg::Float64MultiArray:;SharedPtr [01;31m[Kmsg[m[K)
+      |                                                              [01;31m[K^~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:83:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   27 | allback(const std_msgs::msg::Float64MultiArray:;SharedPtr msg[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+
+make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

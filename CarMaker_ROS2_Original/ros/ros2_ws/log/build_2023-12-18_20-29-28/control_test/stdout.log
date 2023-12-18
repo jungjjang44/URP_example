@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target controlTest[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controlTest.dir/src/controlTest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable controlTest[0m
+[100%] Built target controlTest
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/ament_index/resource_index/package_run_dependencies/control_test
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/ament_index/resource_index/parent_prefix_path/control_test
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/environment/path.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/environment/path.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/local_setup.bash
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/local_setup.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/local_setup.zsh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/local_setup.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/package.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/ament_index/resource_index/packages/control_test
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/cmake/control_testConfig.cmake
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/cmake/control_testConfig-version.cmake
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/share/control_test/package.xml
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/control_test/lib/control_test/controlTest

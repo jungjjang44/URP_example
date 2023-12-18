@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    struct Object {
+      float id;
+
+      float x;
+
+      float y;
+
+      float heading;
+
+      int64 collision_status;
+    };
+  };
+};

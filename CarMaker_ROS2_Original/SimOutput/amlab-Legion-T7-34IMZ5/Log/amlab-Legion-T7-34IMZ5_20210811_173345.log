@@ -1,0 +1,440 @@
+APPLICATION	Car_Generic with CMRosIF #61 (linux64-9.1.1)
+COMPILED	amlab@amlab-legion-t7-34imz5 2021-08-10 22:41:57
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101
+		  -> Has param 'use_sim_time' with value '0'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Publish '/pointcloud/os1'
+		  -> Publish '/gps_out2'
+		  -> Publish '/imu_out2'
+		  -> Publish '/vehicle_info_out'
+		  -> Publish '/pointcloud/os1_pc2'
+		  -> Publish '/Lane/Left0'
+		  -> Publish '/Lane/Left1'
+		  -> Publish '/Lane/Right0'
+		  -> Publish '/Lane/Right1'
+		  -> Publish '/objectinfo_out2'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = 'CMNode'
+		  -> Namespace = '/'
+		    -> Connected Topics (53)
+		    -> /CAN/id1808
+		    -> /CAN/id1809
+		    -> /CAN/id1810
+		    -> /CAN/id304
+		    -> /CAN/id343
+		    -> /CAN/id608
+		    -> /CAN/id640
+		    -> /CAN/id656
+		    -> /Lane/Left0
+		    -> /Lane/Left1
+		    -> /Lane/Right0
+		    -> /Lane/Right1
+		    -> /acc_en
+		    -> /aeb_en
+		    -> /bag_visualization
+		    -> /clock
+		    -> /control_mapuse
+		    -> /control_rqt
+		    -> /driving_status
+		    -> /ego_location
+		    -> /eps_en
+		    -> /eps_speed
+		    -> /eps_switch
+		    -> /forced_lc
+		    -> /gear_en
+		    -> /goal_acc
+		    -> /gpgga
+		    -> /gps_out2
+		    -> /gpvtg
+		    -> /hellocm/cm2ext
+		    -> /hellocm/ext2cm
+		    -> /hybrid_pp_constant
+		    -> /hybrid_stan_constant
+		    -> /imu_out2
+		    -> /kalman
+		    -> /local_kalman
+		    -> /lqr_r
+		    -> /map
+		    -> /objectinfo_out2
+		    -> /parameter_events
+		    -> /pointcloud/os1
+		    -> /pointcloud/os1_pc2
+		    -> /q_array
+		    -> /rosout
+		    -> /sensor
+		    -> /signal_light
+		    -> /speed_limit
+		    -> /tf
+		    -> /tf_static
+		    -> /vehicle_control
+		    -> /vehicle_info_out
+		    -> /version
+		    -> /vn_300
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2021-08-11 17:33:46
+TIME	0.000
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	17:33:46
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:34:01
+TIME	0.017
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_AVcontrol_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		  -> Cycle time of external node changed from 15000ms to 10000ms
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	2.031
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:34:21
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	3.234
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:34:53
+TIME	0.014
+		FName = Data/Vehicle/Demo_IPG_CompanyCar_CMRosIF_SensorExtension
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+		Current random seed value = 1628670893
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:34:59
+TIME	0.012
+		FName = Data/Vehicle/Demo_IPG_CompanyCar_CMRosIF_SensorExtension
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+		Current random seed value = 1628670899
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:35:12
+TIME	0.012
+		FName = Data/Vehicle/DemoCar_CMRosIF_SensorExtension
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+		Current random seed value = 1628670912
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:35:17
+TIME	0.012
+		FName = Data/Vehicle/DemoCar_CMRosIF_SensorExtension
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+		Current random seed value = 1628670917
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	4.630
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:36:04
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:36:14
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		CMNode (CMSimTime=0.000s): External Node is in cycle 1, Time=1628670974s, Stamp=1628670974s
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	6.258
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:37:16
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+ERROR		GNavSensor: Rinex file: "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n" doesn't exist
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't open file "Data/Sensor/EphemRinex/rinex_2014/brdc1820.14n". 
+ERROR		GNavSensor: Can't get parameters for GNavSensor
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	5.216
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:38:09
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+		Current random seed value = 1628671089
+		CMNode (CMSimTime=0.000s): External Node is in cycle 1, Time=1628671094s, Stamp=1628671094s
+ERROR		LidarRSI: Invalid geometry object (-3)
+SIM_ABORT	Sangam_AD_HK_sc6[control]	0s	0m
+TIME	40.248
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:44:51
+TIME	0.014
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_Lidar_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+		Current random seed value = 1628671491
+		CMNode (CMSimTime=0.000s): External Node is in cycle 1, Time=1628671494s, Stamp=1628671494s
+		CMNode (CMSimTime=0.000s): External Node is in cycle 2, Time=1628671504s, Stamp=1628671504s
+TIME	2.323
+		CMNode (CMSimTime=0.000s): External Node is in cycle 3, Time=1628671514s, Stamp=1628671514s
+SIM_END		Sangam_AD_HK_sc6[control]	0s	0m
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 17:45:24
+TIME	0.014
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		CMNode (CMSimTime=0.000s): External Node is in cycle 1, Time=1628671524s, Stamp=1628671524s
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+TIME	0.000
+SIMULATE	Sangam_AD_HK_sc6[control]
+
+TIME	3.918
+		CMNode (CMSimTime=3.917s): External Node is in cycle 2, Time=1628671534s, Stamp=1628671534s
+TIME	13.918
+		CMNode (CMSimTime=13.917s): External Node is in cycle 3, Time=1628671544s, Stamp=1628671544s
+TIME	23.918
+		CMNode (CMSimTime=23.917s): External Node is in cycle 4, Time=1628671554s, Stamp=1628671554s
+TIME	33.915
+		CMNode (CMSimTime=33.914s): External Node is in cycle 5, Time=1628671564s, Stamp=1628671564s
+TIME	36.876
+		CMNode (CMSimTime=36.115s): External Node is in cycle 6, Time=1628671574s, Stamp=1628671574s
+		CMNode (CMSimTime=36.115s): External Node is in cycle 7, Time=1628671584s, Stamp=1628671584s
+TIME	38.876
+		CMNode (CMSimTime=36.115s): External Node is in cycle 8, Time=1628671594s, Stamp=1628671594s
+		CMNode (CMSimTime=36.115s): External Node is in cycle 9, Time=1628671604s, Stamp=1628671604s
+TIME	40.876
+		CMNode (CMSimTime=36.115s): External Node is in cycle 10, Time=1628671614s, Stamp=1628671614s
+		CMNode (CMSimTime=36.115s): External Node is in cycle 11, Time=1628671624s, Stamp=1628671624s
+TIME	42.876
+		CMNode (CMSimTime=36.115s): External Node is in cycle 12, Time=1628671634s, Stamp=1628671634s
+		CMNode (CMSimTime=36.115s): External Node is in cycle 13, Time=1628671644s, Stamp=1628671644s
+TIME	44.976
+		CMNode (CMSimTime=36.226s): External Node is in cycle 14, Time=1628671654s, Stamp=1628671654s
+TIME	54.978
+		CMNode (CMSimTime=46.228s): External Node is in cycle 15, Time=1628671664s, Stamp=1628671664s
+TIME	64.981
+		CMNode (CMSimTime=56.231s): External Node is in cycle 16, Time=1628671674s, Stamp=1628671674s
+TIME	74.975
+		CMNode (CMSimTime=66.225s): External Node is in cycle 17, Time=1628671684s, Stamp=1628671684s
+TIME	84.975
+		CMNode (CMSimTime=76.225s): External Node is in cycle 18, Time=1628671694s, Stamp=1628671694s
+TIME	94.977
+		CMNode (CMSimTime=86.227s): External Node is in cycle 19, Time=1628671704s, Stamp=1628671704s
+TIME	104.979
+		CMNode (CMSimTime=96.229s): External Node is in cycle 20, Time=1628671714s, Stamp=1628671714s
+TIME	114.972
+		CMNode (CMSimTime=106.222s): External Node is in cycle 21, Time=1628671724s, Stamp=1628671724s
+TIME	124.977
+		CMNode (CMSimTime=116.227s): External Node is in cycle 22, Time=1628671734s, Stamp=1628671734s
+TIME	134.973
+		CMNode (CMSimTime=126.223s): External Node is in cycle 23, Time=1628671744s, Stamp=1628671744s
+TIME	143.035
+SIM_END		Sangam_AD_HK_sc6[control]	134.281s	1.44047m
+TIME	464.173
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 18:42:44
+TIME	0.012
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+		CMNode (CMSimTime=0.000s): External Node is in cycle 1, Time=1628674964s, Stamp=1628674964s
+TIME	0.000
+SIMULATE	Sangam_AD_HK_sc6[control]
+
+TIME	7.418
+		CMNode (CMSimTime=7.417s): External Node is in cycle 2, Time=1628674974s, Stamp=1628674974s
+TIME	17.419
+		CMNode (CMSimTime=17.418s): External Node is in cycle 3, Time=1628674984s, Stamp=1628674984s
+TIME	27.415
+		CMNode (CMSimTime=27.414s): External Node is in cycle 4, Time=1628674994s, Stamp=1628674994s
+TIME	37.415
+		CMNode (CMSimTime=37.414s): External Node is in cycle 5, Time=1628675004s, Stamp=1628675004s
+TIME	41.688
+SIM_END		Sangam_AD_HK_sc6[control]	41.683s	0.645092m
+TIME	57.977
+SHUTDOWN	CarMaker quick shutdown initiated
+
+		CMRosIF_CMNode_End: End

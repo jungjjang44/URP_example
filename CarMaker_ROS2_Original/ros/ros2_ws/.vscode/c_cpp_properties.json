@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_msgs/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/include/**",
+        "/home/amlab/save_ws_2022/install/custom_msgs/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/include/**",
+        "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

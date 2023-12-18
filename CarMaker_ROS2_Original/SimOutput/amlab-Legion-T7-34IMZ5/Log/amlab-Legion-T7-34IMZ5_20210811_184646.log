@@ -1,0 +1,120 @@
+APPLICATION	Car_Generic with CMRosIF #62 (linux64-9.1.1)
+COMPILED	amlab@amlab-legion-t7-34imz5 2021-08-11 18:46:29
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101
+		  -> Has param 'use_sim_time' with value '0'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Publish '/pointcloud/os1'
+		  -> Publish '/gps_out2'
+		  -> Publish '/imu_out2'
+		  -> Publish '/vehicle_info_out'
+		  -> Publish '/pointcloud/os1_pc2'
+		  -> Publish '/Lane/Left0'
+		  -> Publish '/Lane/Left1'
+		  -> Publish '/Lane/Right0'
+		  -> Publish '/Lane/Right1'
+		  -> Publish '/objectinfo_out2'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = 'CMNode'
+		  -> Namespace = '/'
+		    -> Connected Topics (36)
+		    -> /CAN/id1808
+		    -> /CAN/id1809
+		    -> /CAN/id1810
+		    -> /CAN/id304
+		    -> /CAN/id343
+		    -> /CAN/id608
+		    -> /CAN/id640
+		    -> /CAN/id656
+		    -> /Lane/Left0
+		    -> /Lane/Left1
+		    -> /Lane/Right0
+		    -> /Lane/Right1
+		    -> /bag_visualization
+		    -> /clock
+		    -> /control_rqt
+		    -> /driving_status
+		    -> /ego_location
+		    -> /goal_acc
+		    -> /gpgga
+		    -> /gps_out2
+		    -> /gpvtg
+		    -> /hellocm/cm2ext
+		    -> /hellocm/ext2cm
+		    -> /imu_out2
+		    -> /kalman
+		    -> /objectinfo_out2
+		    -> /parameter_events
+		    -> /pointcloud/os1
+		    -> /pointcloud/os1_pc2
+		    -> /rosout
+		    -> /signal_light
+		    -> /tf
+		    -> /tf_static
+		    -> /vehicle_control
+		    -> /vehicle_info_out
+		    -> /vn_300
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2021-08-11 18:46:47
+TIME	0.000
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	18:46:47
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-11 18:47:06
+TIME	0.010
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		  -> Cycle time of external node changed from 15000ms to 10000ms
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+TIME	0.000
+SIMULATE	Sangam_AD_HK_sc6[control]
+
+TIME	2.841
+		CMNode (CMSimTime=2.840s): External Node is in cycle 1, Time=1628675235s, Stamp=1628675235s
+TIME	12.840
+		CMNode (CMSimTime=12.839s): External Node is in cycle 2, Time=1628675245s, Stamp=1628675245s
+TIME	22.841
+		CMNode (CMSimTime=22.840s): External Node is in cycle 3, Time=1628675255s, Stamp=1628675255s
+TIME	32.840
+		CMNode (CMSimTime=32.839s): External Node is in cycle 4, Time=1628675265s, Stamp=1628675265s
+TIME	42.839
+		CMNode (CMSimTime=42.838s): External Node is in cycle 5, Time=1628675275s, Stamp=1628675275s
+TIME	52.840
+		CMNode (CMSimTime=52.839s): External Node is in cycle 6, Time=1628675285s, Stamp=1628675285s
+TIME	62.847
+		CMNode (CMSimTime=62.846s): External Node is in cycle 7, Time=1628675295s, Stamp=1628675295s
+TIME	72.838
+		CMNode (CMSimTime=72.837s): External Node is in cycle 8, Time=1628675305s, Stamp=1628675305s
+TIME	82.840
+		CMNode (CMSimTime=82.839s): External Node is in cycle 9, Time=1628675315s, Stamp=1628675315s
+TIME	87.844
+SIM_END		Sangam_AD_HK_sc6[control]	87.838s	1.14445m
+SHUTDOWN	CarMaker quick shutdown initiated
+
+		CMRosIF_CMNode_End: End

@@ -1,0 +1,275 @@
+[1.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.056s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fabe11b6b80>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fabe11b6b80>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fabe1afc910>)
+[1.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extension 'ignore_ament_install'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extensions ['colcon_pkg']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extension 'colcon_pkg'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extensions ['colcon_meta']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extension 'colcon_meta'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extensions ['ros']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(carmaker_vds_client) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'carmaker_vds_client' with type 'ros.ament_cmake' and name 'carmaker_vds_client'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cm_control_example) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'cm_control_example' with type 'ros.ament_cmake' and name 'cm_control_example'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(cmrosutils) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'cmrosutils' with type 'ros.ament_cmake' and name 'cmrosutils'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(control_test) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'control_test' with type 'ros.ament_cmake' and name 'control_test'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'hellocm' with type 'ros.ament_cmake' and name 'hellocm'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extension 'colcon_pkg'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_cmnode) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'hellocm_cmnode' with type 'ros.ament_cmake' and name 'hellocm_cmnode'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extension 'ignore_ament_install'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extensions ['colcon_pkg']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extensions ['colcon_meta']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extension 'colcon_meta'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extensions ['ros']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(hellocm_msgs) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'hellocm_msgs' with type 'ros.ament_cmake' and name 'hellocm_msgs'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.261s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install
+[1.278s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_target' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'carmaker_vds_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.357s] DEBUG:colcon.colcon_core.verb:Building package 'carmaker_vds_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/carmaker_vds_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/carmaker_vds_client', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client', 'symlink_install': False, 'test_result_base': None}
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_target' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'cm_control_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.376s] DEBUG:colcon.colcon_core.verb:Building package 'cm_control_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example', 'symlink_install': False, 'test_result_base': None}
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_target' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_clean_first' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_force_configure' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'ament_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.399s] DEBUG:colcon.colcon_core.verb:Building package 'cmrosutils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cmrosutils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cmrosutils', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils', 'symlink_install': False, 'test_result_base': None}
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_target' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'control_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.417s] DEBUG:colcon.colcon_core.verb:Building package 'control_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/control_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/control_test', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test', 'symlink_install': False, 'test_result_base': None}
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.434s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/custom_msgs', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.452s] DEBUG:colcon.colcon_core.verb:Building package 'hellocm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/hellocm_msgs', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_args' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_target' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_clean_first' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_force_configure' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'ament_cmake_args' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.469s] DEBUG:colcon.colcon_core.verb:Building package 'hellocm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/hellocm', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm', 'symlink_install': False, 'test_result_base': None}
+[1.487s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_args' from command line to 'None'
+[1.487s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_target' from command line to 'None'
+[1.487s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.487s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_clean_cache' from command line to 'False'
+[1.487s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_clean_first' from command line to 'False'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'cmake_force_configure' from command line to 'False'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'ament_cmake_args' from command line to 'None'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'catkin_cmake_args' from command line to 'None'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'hellocm_cmnode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.488s] DEBUG:colcon.colcon_core.verb:Building package 'hellocm_cmnode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_cmnode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/hellocm_cmnode', 'merge_install': False, 'path': '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode', 'symlink_install': False, 'test_result_base': None}
+[1.505s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils' with build type 'ament_cmake'
+[1.523s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils'
+[1.542s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.602s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs' with build type 'ament_cmake'
+[1.602s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs'
+[1.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client' with build type 'ament_cmake'
+[1.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client'
+[1.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example' with build type 'ament_cmake'
+[1.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example'
+[1.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test' with build type 'ament_cmake'
+[1.836s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test'
+[1.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs' with build type 'ament_cmake'
+[1.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs'
+[1.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cmrosutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cmrosutils
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/hellocm_msgs
+[2.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/carmaker_vds_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/carmaker_vds_client
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example
+[2.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/control_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/control_test
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/custom_msgs
+[3.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cmrosutils
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cmrosutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cmrosutils -- -j12 -l12
+[3.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example -- -j12 -l12
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/hellocm_msgs
+[3.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/hellocm_msgs -- -j12 -l12
+[3.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/control_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/control_test
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/control_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/control_test -- -j12 -l12
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/cm_control_example -- -j12 -l12
+[3.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cm_control_example)
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example' for CMake module files
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example' for CMake config files
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/bin'
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/lib/pkgconfig/cm_control_example.pc'
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/lib/python3.8/site-packages'
+[3.283s] Level 1:colcon.colcon_core.environment:checking '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/bin'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/cm_control_example/package.ps1'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/cm_control_example/package.dsv'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/cm_control_example/package.sh'
+[3.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/cm_control_example/package.bash'
+[3.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/cm_control_example/package.zsh'
+[3.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/cm_control_example/share/colcon-core/packages/cm_control_example)
+[12.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[12.132s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.155s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.163s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/local_setup.ps1'
+[12.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/_local_setup_util_ps1.py'
+[12.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/setup.ps1'
+[12.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/local_setup.sh'
+[12.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/_local_setup_util_sh.py'
+[12.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/setup.sh'
+[12.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/local_setup.bash'
+[12.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/setup.bash'
+[12.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/local_setup.zsh'
+[12.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/setup.zsh'

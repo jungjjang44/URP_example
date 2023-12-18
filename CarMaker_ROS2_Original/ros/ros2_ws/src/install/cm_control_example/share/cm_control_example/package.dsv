@@ -1,0 +1,5 @@
+source;share/cm_control_example/local_setup.bash
+source;share/cm_control_example/local_setup.dsv
+source;share/cm_control_example/local_setup.ps1
+source;share/cm_control_example/local_setup.sh
+source;share/cm_control_example/local_setup.zsh

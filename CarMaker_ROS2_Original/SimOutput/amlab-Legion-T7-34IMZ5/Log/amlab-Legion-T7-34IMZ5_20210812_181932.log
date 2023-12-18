@@ -1,0 +1,99 @@
+APPLICATION	Car_Generic with CMRosIF #65 (linux64-9.1.1)
+COMPILED	amlab@amlab-legion-t7-34imz5 2021-08-12 18:19:21
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101
+		  -> Has param 'use_sim_time' with value '0'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Publish '/pointcloud/os1'
+		  -> Publish '/gps_out2'
+		  -> Publish '/imu_out2'
+		  -> Publish '/vehicle_info_out'
+		  -> Publish '/pointcloud/os1_pc2'
+		  -> Publish '/Lane/Left0'
+		  -> Publish '/Lane/Left1'
+		  -> Publish '/Lane/Right0'
+		  -> Publish '/Lane/Right1'
+		  -> Publish '/objectinfo_out2'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = 'CMNode'
+		  -> Namespace = '/'
+		    -> Connected Topics (36)
+		    -> /Lane/Left0
+		    -> /Lane/Left1
+		    -> /Lane/Right0
+		    -> /Lane/Right1
+		    -> /acc_en
+		    -> /aeb_en
+		    -> /clock
+		    -> /control_mapuse
+		    -> /eps_en
+		    -> /eps_speed
+		    -> /eps_switch
+		    -> /forced_lc
+		    -> /gear_en
+		    -> /gps_out2
+		    -> /hellocm/cm2ext
+		    -> /hellocm/ext2cm
+		    -> /hybrid_pp_constant
+		    -> /hybrid_stan_constant
+		    -> /imu_out2
+		    -> /local_kalman
+		    -> /lqr_r
+		    -> /map
+		    -> /objectinfo_out2
+		    -> /parameter_events
+		    -> /pointcloud/os1
+		    -> /pointcloud/os1_pc2
+		    -> /q_array
+		    -> /rosout
+		    -> /sensor
+		    -> /signal_light
+		    -> /speed_limit
+		    -> /tf
+		    -> /tf_static
+		    -> /vehicle_control
+		    -> /vehicle_info_out
+		    -> /version
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2021-08-12 18:19:32
+TIME	0.000
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	18:19:33
+SIM_START	Sangam_AD_HK_sc6[control]	2021-08-12 18:19:39
+TIME	0.010
+		FName = Data/Vehicle/DEEV_Based_AE_EV_SOP_rev
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = CMNode
+		  -> Publish /clock every 100ms
+		  -> Send Service Request
+		  -> Cycle time of external node changed from 15000ms to 10000ms
+		External ROS Node is ready to simulate
+		No route selected for ego vehicle
+		Environment Generic: model disabled (works only on route)
+		Traffic Light 'CtrlTL000_InG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'CtrlTL000_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inR' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Traffic Light 'Ped_inG' works only in manual mode. For automatic mode at least two phase times should be non zero
+		Road Sensor: evaluation of route/path disabled
+		DrivMan road markers disabled (works only on route)
+		Maneuver using IPGDriver disabled (works only on route)
+TIME	0.000
+SIMULATE	Sangam_AD_HK_sc6[control]
+
+ERROR		Caught signal SIGSEGV (11)
+WARNING	Simulation program terminates

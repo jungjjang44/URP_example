@@ -1,0 +1,4 @@
+srv/CMRemote.idl
+srv/CMRemote.srv
+srv/CMRemote_Request.msg
+srv/CMRemote_Response.msg

@@ -1,0 +1,5 @@
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   27 | foCallback([01;35m[Kconst std_msgs::msg::Float64MultiArray::SharedPtr msg[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

@@ -1,0 +1,5 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/CMakeFiles/CMakeOutput.log".
+See also "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/CMakeFiles/CMakeError.log".

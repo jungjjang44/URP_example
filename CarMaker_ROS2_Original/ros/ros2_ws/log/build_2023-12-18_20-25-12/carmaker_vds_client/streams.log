@@ -1,0 +1,61 @@
+[0.243s] Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client
+[0.251s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.266s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.308s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.312s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.336s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.479s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.480s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.499s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.629s] -- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)
+[0.731s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.737s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[0.978s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[0.981s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.009s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.059s] -- Configured cppcheck include dirs: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/include
+[1.059s] -- Configured cppcheck exclude dirs and/or files: 
+[1.059s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.059s] -- Configured cpplint exclude dirs and/or files: 
+[1.060s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.060s] -- Added test 'lint_cmake' to check CMake code style
+[1.060s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.060s] -- Added test 'uncrustify' to check C / C++ code style
+[1.060s] -- Configured uncrustify additional arguments: 
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.062s] -- Configuring done
+[1.072s] -- Generating done
+[1.073s] -- Build files have been written to: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client
+[1.150s] Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client
+[1.152s] Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client -- -j12 -l12
+[1.191s] [100%] Built target carmaker_vds_client_node
+[1.299s] Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client -- -j12 -l12
+[1.313s] Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client
+[1.319s] -- Install configuration: ""
+[1.320s] -- Execute custom install script
+[1.320s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/lib/carmaker_vds_client/carmaker_vds_client_node
+[1.320s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/IPGMovie_VDS_helper.sh
+[1.320s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/carmaker_vds_client.launch.py
+[1.320s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/multicam_example.launch.py
+[1.320s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/multicam_example.perspective
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/lib/carmaker_vds_client/IPGMovie_VDS_helper.sh
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/package_run_dependencies/carmaker_vds_client
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/parent_prefix_path/carmaker_vds_client
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/ament_prefix_path.sh
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/ament_prefix_path.dsv
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/path.sh
+[1.321s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/path.dsv
+[1.322s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.bash
+[1.322s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.sh
+[1.322s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.zsh
+[1.322s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.dsv
+[1.322s] -- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/package.dsv
+[1.328s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/packages/carmaker_vds_client
+[1.328s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/cmake/carmaker_vds_clientConfig.cmake
+[1.328s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/cmake/carmaker_vds_clientConfig-version.cmake
+[1.328s] -- Up-to-date symlink: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/package.xml
+[1.330s] Invoked command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client

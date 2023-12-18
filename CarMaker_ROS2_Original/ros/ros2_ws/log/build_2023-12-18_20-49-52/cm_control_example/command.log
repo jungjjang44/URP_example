@@ -1,0 +1,1 @@
+Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example': /usr/bin/cmake --build /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12

@@ -1,0 +1,15 @@
+{
+  "package_name": "hellocm_msgs",
+  "non_idl_tuples": [
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/CM2Ext.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/Ext2CM.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/GPSOut.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/IMUOut.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/ObjectInfoOut.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/SignalLightIn.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/SpeedLimit.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/VehicleControlIn.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:msg/VehicleInfoOut.msg",
+    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs:srv/Init.srv"
+  ]
+}

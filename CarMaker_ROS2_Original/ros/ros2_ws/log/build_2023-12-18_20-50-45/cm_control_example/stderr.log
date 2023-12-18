@@ -1,0 +1,10 @@
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In constructor ‘[01m[Kcm_control_example::cm_control_example()[m[K’:
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:23:56:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolTest[m[K’ has not been declared
+   23 |         ("/carmaker/vehicle_info_out2", 20, std::bind(&[01;31m[KcontrolTest[m[K::vehicleInfoCallback, this, _1));
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:24:59:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolTest[m[K’ has not been declared
+   24 |         timer_ = this->create_wall_timer(10ms, std::bind(&[01;31m[KcontrolTest[m[K::timer_callback, this));
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

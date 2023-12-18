@@ -1,0 +1,14 @@
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:[m[K In member function ‘[01m[Kvoid controlTest::lppCallback(custom_msgs::msg::Paths)[m[K’:
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:139:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  139 |         for (int i=0; [01;35m[Ki < lpp_x.size()[m[K; i++){
+      |                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:[m[K In member function ‘[01m[Kstd::vector<point> controlTest::get_ego_pose()[m[K’:
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:154:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[K_x[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  154 |         double [01;35m[K_x[m[K, _y, _heading;
+      |                [01;35m[K^~[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:154:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[K_y[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  154 |         double _x, [01;35m[K_y[m[K, _heading;
+      |                    [01;35m[K^~[m[K
+[01m[K/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/control_test/src/controlTest.cpp:154:24:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[K_heading[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  154 |         double _x, _y, [01;35m[K_heading[m[K;
+      |                        [01;35m[K^~~~~~~~[m[K

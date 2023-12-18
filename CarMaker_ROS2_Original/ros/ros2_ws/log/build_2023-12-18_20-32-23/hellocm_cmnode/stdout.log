@@ -1,0 +1,59 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Found cmrosutils: 0.0.0 (/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake)
+-- Found hellocm: 0.0.0 (/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/cmake)
+-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_cmnode
+[ 50%] [32m[1mLinking CXX shared library libCMNode_ROS1_HelloCM.so[0m
+[100%] Built target CMNode_ROS1_HelloCM
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/include/a
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020.png
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020_Orange.dae
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020_Wheel.dae
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/package_run_dependencies/hellocm_cmnode
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/parent_prefix_path/hellocm_cmnode
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.bash
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.sh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.zsh
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.dsv
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/packages/hellocm_cmnode
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig.cmake
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig-version.cmake
+-- Symlinking: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.xml

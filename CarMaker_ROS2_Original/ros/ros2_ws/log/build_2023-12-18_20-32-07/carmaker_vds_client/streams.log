@@ -1,0 +1,22 @@
+[0.086s] Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client
+[0.094s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.200s] Traceback (most recent call last):
+[0.200s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.200s]     from ament_package.templates import get_environment_hook_template_path
+[0.200s] ModuleNotFoundError: No module named 'ament_package'
+[0.219s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.219s]   execute_process(/usr/bin/python3
+[0.219s]   /opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.219s]   /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_package_templates/templates.cmake)
+[0.219s]   returned error code 1
+[0.219s] Call Stack (most recent call first):
+[0.219s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.219s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.219s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.220s]   CMakeLists.txt:18 (find_package)
+[0.220s] 
+[0.220s] 
+[0.220s] -- Configuring incomplete, errors occurred!
+[0.220s] See also "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/CMakeFiles/CMakeOutput.log".
+[0.220s] See also "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/CMakeFiles/CMakeError.log".

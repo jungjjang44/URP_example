@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target hellocm_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hellocm_node[0m
+[100%] Built target hellocm_node

@@ -1,0 +1,58 @@
+[0.320s] Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/carmaker_vds_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/install/carmaker_vds_client
+[0.352s] -- The C compiler identification is GNU 9.4.0
+[0.387s] -- The CXX compiler identification is GNU 9.4.0
+[0.390s] -- Check for working C compiler: /usr/bin/cc
+[0.429s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.430s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.530s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.606s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.606s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.662s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.760s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.785s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.888s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.901s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.902s] -- Looking for pthread.h
+[0.950s] -- Looking for pthread.h - found
+[0.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.998s] -- Looking for pthread_create in pthreads
+[1.034s] -- Looking for pthread_create in pthreads - not found
+[1.034s] -- Looking for pthread_create in pthread
+[1.078s] -- Looking for pthread_create in pthread - found
+[1.078s] -- Found Threads: TRUE  
+[1.179s] -- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)
+[1.295s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.301s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.541s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[1.549s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.552s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.578s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.639s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.639s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.640s] -- Configured cppcheck include dirs: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/include
+[1.640s] -- Configured cppcheck exclude dirs and/or files: 
+[1.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.641s] -- Configured cpplint exclude dirs and/or files: 
+[1.642s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.646s] -- Added test 'lint_cmake' to check CMake code style
+[1.646s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.646s] -- Added test 'uncrustify' to check C / C++ code style
+[1.646s] -- Configured uncrustify additional arguments: 
+[1.646s] -- Added test 'xmllint' to check XML markup files
+[1.648s] -- Configuring done
+[1.667s] -- Generating done
+[1.669s] -- Build files have been written to: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/build/carmaker_vds_client

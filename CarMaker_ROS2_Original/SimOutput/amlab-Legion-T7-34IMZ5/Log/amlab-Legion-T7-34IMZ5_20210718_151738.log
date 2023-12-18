@@ -1,0 +1,52 @@
+APPLICATION	Car_Generic with CMRosIF #59 (linux64-9.1.1)
+COMPILED	amlab@amlab-legion-t7-34imz5 2021-07-18 15:12:07
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101
+		  -> Has param 'use_sim_time' with value '0'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Publish '/pointcloud/vlp'
+		  -> Publish '/pointcloud/os1'
+		  -> Publish '/ObjectList'
+		  -> Publish '/LeftLane'
+		  -> Publish '/RightLane'
+		  -> Publish '/Odometry'
+		  -> Publish '/EgoVehicle'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = 'CMNode'
+		  -> Namespace = '/'
+		    -> Connected Topics (14)
+		    -> /EgoVehicle
+		    -> /LeftLane
+		    -> /ObjectList
+		    -> /Odometry
+		    -> /RightLane
+		    -> /clock
+		    -> /hellocm/cm2ext
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /pointcloud/os1
+		    -> /pointcloud/vlp
+		    -> /rosout
+		    -> /tf
+		    -> /tf_static
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2021-07-18 15:17:38
+TIME	0.000
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	15:17:39
+TIME	899.822
+		CMRosIF_CMNode_End: End
