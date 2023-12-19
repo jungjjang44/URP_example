@@ -6,6 +6,7 @@
 ### 명령어
 
 - git clone repo
+- dfgdfgdfgd
 - cd URP_example/CarMaker_ROS2_Original
 - ./build_cmrosif.sh (빌드)
 - cd ros/ros2_ws
