@@ -1,1 +1,46 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter/hellocm_msgs/msg/GPSOut.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hellocm_msgs/msg/GPSOut.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "std_msgs/msg/Header.idl"
+
+module hellocm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Message from CarMaker ROS Node to external ROS Node")
+    struct GPSOut {
+      @verbatim (language="comment", text=
+        " General" "\n"
+        " General ROS Header (optional)")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " ROS time when message was sent (optional)")
+      builtin_interfaces::msg::Time time;
+
+      @verbatim (language="comment", text=
+        " Cycle number since simulation start (optional)")
+      int64 cycleno;
+
+      @verbatim (language="comment", text=
+        " Synthetic delay to check synchronization (optional)")
+      double synthdelay;
+
+      @verbatim (language="comment", text=
+        " Latitude")
+      @unit (value="degrees")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        " Longitude")
+      @unit (value="degrees")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        " Altitude")
+      @unit (value="m")
+      double altitude;
+    };
+  };
+};

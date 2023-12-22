@@ -1,1 +1,4 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/custom_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+msg/Object.idl
+msg/Object.msg
+msg/Paths.idl
+msg/Paths.msg

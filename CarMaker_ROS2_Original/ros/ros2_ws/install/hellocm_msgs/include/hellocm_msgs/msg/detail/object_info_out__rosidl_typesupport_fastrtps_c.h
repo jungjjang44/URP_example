@@ -1,1 +1,36 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/object_info_out__rosidl_typesupport_fastrtps_c.h
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from hellocm_msgs:msg/ObjectInfoOut.idl
+// generated code does not contain a copyright notice
+#ifndef HELLOCM_MSGS__MSG__DETAIL__OBJECT_INFO_OUT__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define HELLOCM_MSGS__MSG__DETAIL__OBJECT_INFO_OUT__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "hellocm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_hellocm_msgs
+size_t get_serialized_size_hellocm_msgs__msg__ObjectInfoOut(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_hellocm_msgs
+size_t max_serialized_size_hellocm_msgs__msg__ObjectInfoOut(
+  bool & full_bounded,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_hellocm_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, hellocm_msgs, msg, ObjectInfoOut)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // HELLOCM_MSGS__MSG__DETAIL__OBJECT_INFO_OUT__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

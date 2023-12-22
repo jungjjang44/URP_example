@@ -1,1 +1,4 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/cmrosutils
+srv/CMRemote.idl
+srv/CMRemote.srv
+srv/CMRemote_Request.msg
+srv/CMRemote_Response.msg

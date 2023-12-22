@@ -1,0 +1,234 @@
+[0.182s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Check for working C compiler: /usr/bin/cc
+[0.284s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.285s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.336s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.386s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.454s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.454s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.499s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.564s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.576s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.646s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.659s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.659s] -- Looking for pthread.h
+[0.699s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.743s] -- Looking for pthread_create in pthreads
+[0.775s] -- Looking for pthread_create in pthreads - not found
+[0.775s] -- Looking for pthread_create in pthread
+[0.814s] -- Looking for pthread_create in pthread - found
+[0.814s] -- Found Threads: TRUE  
+[0.917s] -- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)
+[1.017s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.023s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.247s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[1.255s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.258s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.298s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.367s] -- Configured cppcheck include dirs: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/include
+[1.367s] -- Configured cppcheck exclude dirs and/or files: 
+[1.368s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.368s] -- Configured cpplint exclude dirs and/or files: 
+[1.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.369s] -- Added test 'lint_cmake' to check CMake code style
+[1.370s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.370s] -- Added test 'uncrustify' to check C / C++ code style
+[1.371s] -- Configured uncrustify additional arguments: 
+[1.371s] -- Added test 'xmllint' to check XML markup files
+[1.374s] -- Configuring done
+[1.392s] -- Generating done
+[1.394s] -- Build files have been written to: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client
+[1.404s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DCMAKE_INSTALL_PREFIX=/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client
+[1.405s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client -- -j12 -l12
+[1.439s] [35m[1mScanning dependencies of target carmaker_vds_client_node[0m
+[1.467s] [ 50%] [32mBuilding CXX object CMakeFiles/carmaker_vds_client_node.dir/src/carmaker_vds_client_node.cpp.o[0m
+[2.878s] In file included from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:29[m[K:
+[2.878s] [01m[K/opt/ros/galactic/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[2.878s]    41 | Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[2.879s]       |                                                                       [01;36m[K^[m[K
+[2.879s] 
+[3.156s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:[m[K In function ‘[01m[Kint VDS_GetData(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.156s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:200:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 8 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.157s]   200 |     if (sscanf(VDScfg.sbuf, "*VDS %d %s %f %dx%d [01;35m[K%d[m[K", &Channel, ImgType, &SimTime, &ImgWidth, &ImgHeight, [32m[K&ImgLen[m[K) == 6) {
+[3.157s]       |                                                  [01;35m[K~^[m[K                                                       [32m[K~~~~~~~[m[K
+[3.157s]       |                                                   [01;35m[K|[m[K                                                       [32m[K|[m[K
+[3.157s]       |                                                   [01;35m[Kint*[m[K                                                    [32m[Kunsigned int*[m[K
+[3.157s]       |                                                  [32m[K%d[m[K
+[3.160s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:244:61:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 5 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.160s]   244 |     } else if (sscanf(VDScfg.sbuf, "*VDSEmbeddedData %d %f [01;35m[K%d[m[K %s", &Channel, &SimTime, [32m[K&dataLen[m[K, AniMode) == 4) {
+[3.160s]       |                                                            [01;35m[K~^[m[K                          [32m[K~~~~~~~~[m[K
+[3.160s]       |                                                             [01;35m[K|[m[K                          [32m[K|[m[K
+[3.160s]       |                                                             [01;35m[Kint*[m[K                       [32m[Kunsigned int*[m[K
+[3.160s]       |                                                            [32m[K%d[m[K
+[3.166s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:[m[K In function ‘[01m[Kvoid termination_handler(int)[m[K’:
+[3.167s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:392:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.167s]   392 | void termination_handler([01;35m[Kint signum[m[K)
+[3.167s]       |                          [01;35m[K~~~~^~~~~~[m[K
+[3.173s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.173s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:425:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.173s]   425 |     [01;35m[KNode->declare_parameter("vds_host")[m[K;
+[3.173s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.174s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.174s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.174s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.174s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.174s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.174s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.174s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.175s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:430:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.175s]   430 |     [01;35m[KNode->declare_parameter("vds_port")[m[K;
+[3.175s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.175s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.175s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.175s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.176s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.176s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.176s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.176s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.176s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:435:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.176s]   435 |         [01;35m[KNode->declare_parameter("connection_tries")[m[K;
+[3.176s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.177s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.177s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.177s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.177s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.177s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.177s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.177s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.177s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:441:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.178s]   441 |         [01;35m[KNode->declare_parameter("camera_frame")[m[K;
+[3.178s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.178s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.178s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.178s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.178s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.178s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.178s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.178s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.179s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:449:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.180s]   449 |     [01;35m[KNode->declare_parameter("param_trans_rot")[m[K;
+[3.180s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[3.180s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.180s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.180s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.180s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.180s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.180s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.181s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.182s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:470:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.182s]   470 |     [01;35m[KNode->declare_parameter("binning_x")[m[K;
+[3.182s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.182s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.182s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.182s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.182s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.182s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.182s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.182s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.183s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:477:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.183s]   477 |     [01;35m[KNode->declare_parameter("binning_y")[m[K;
+[3.183s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.183s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.183s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.183s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.183s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.184s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.184s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.184s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.184s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:484:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.184s]   484 |     [01;35m[KNode->declare_parameter("distortion_model")[m[K;
+[3.184s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.184s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.185s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.185s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.185s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.185s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.185s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.185s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.186s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:491:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.186s]   491 |     [01;35m[KNode->declare_parameter("calib_mat_k")[m[K;
+[3.186s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.186s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.186s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.186s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.186s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.186s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.186s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.186s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.187s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:504:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.187s]   504 |     [01;35m[KNode->declare_parameter("calib_mat_r")[m[K;
+[3.187s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.187s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.187s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.187s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.187s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.188s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.188s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.188s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.188s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:516:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.188s]   516 |     [01;35m[KNode->declare_parameter("calib_mat_p")[m[K;
+[3.189s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.189s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.189s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.189s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.189s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.189s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.189s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.189s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.190s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:529:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.190s]   529 |     [01;35m[KNode->declare_parameter("calib_mat_d")[m[K;
+[3.190s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.190s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.190s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.190s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.190s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/src/carmaker_vds_client_node.cpp:28[m[K:
+[3.190s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.191s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.191s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.046s] [100%] [32m[1mLinking CXX executable carmaker_vds_client_node[0m
+[5.279s] [100%] Built target carmaker_vds_client_node
+[5.311s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client -- -j12 -l12
+[5.347s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client
+[5.363s] -- Install configuration: ""
+[5.363s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/lib/carmaker_vds_client/carmaker_vds_client_node
+[5.363s] -- Set runtime path of "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/lib/carmaker_vds_client/carmaker_vds_client_node" to ""
+[5.363s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch
+[5.364s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/multicam_example.launch.py
+[5.376s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/IPGMovie_VDS_helper.sh
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/multicam_example.perspective
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/launch/carmaker_vds_client.launch.py
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/lib/carmaker_vds_client/IPGMovie_VDS_helper.sh
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/package_run_dependencies/carmaker_vds_client
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/parent_prefix_path/carmaker_vds_client
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/ament_prefix_path.sh
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/ament_prefix_path.dsv
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/path.sh
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/environment/path.dsv
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.bash
+[5.377s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.sh
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.zsh
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/local_setup.dsv
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/package.dsv
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/ament_index/resource_index/packages/carmaker_vds_client
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/cmake/carmaker_vds_clientConfig.cmake
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/cmake/carmaker_vds_clientConfig-version.cmake
+[5.378s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client/share/carmaker_vds_client/package.xml
+[5.378s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client

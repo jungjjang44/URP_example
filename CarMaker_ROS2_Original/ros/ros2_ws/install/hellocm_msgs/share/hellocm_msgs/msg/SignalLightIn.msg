@@ -1,1 +1,2 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs/msg/SignalLightIn.msg
+int8  signal_light
+bool  hazard

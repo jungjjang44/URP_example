@@ -1,1 +1,24 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs/msg/Paths.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/Paths.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    struct Paths {
+      sequence<double> x;
+
+      sequence<double> y;
+
+      sequence<double> s;
+
+      sequence<double> h;
+
+      sequence<double> id;
+
+      sequence<float> left_roi;
+
+      sequence<float> right_roi;
+    };
+  };
+};

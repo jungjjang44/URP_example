@@ -1,1 +1,2 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm/ament_cmake_environment_hooks/local_setup.dsv
+source;share/hellocm/environment/ament_prefix_path.sh
+source;share/hellocm/environment/path.sh

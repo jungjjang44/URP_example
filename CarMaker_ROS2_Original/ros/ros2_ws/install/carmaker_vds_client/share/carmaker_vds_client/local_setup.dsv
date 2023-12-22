@@ -1,1 +1,2 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/local_setup.dsv
+source;share/carmaker_vds_client/environment/ament_prefix_path.sh
+source;share/carmaker_vds_client/environment/path.sh

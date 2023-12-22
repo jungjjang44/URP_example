@@ -1,8 +1,8 @@
-# Install script for directory: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/custom_msgs/custom_msgs__py
+# Install script for directory: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/custom_msgs/custom_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/custom_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/custom_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

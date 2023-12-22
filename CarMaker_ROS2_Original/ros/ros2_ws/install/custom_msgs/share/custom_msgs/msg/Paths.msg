@@ -1,1 +1,7 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs/msg/Paths.msg
+float64[]  x
+float64[]  y
+float64[]  s
+float64[]  h
+float64[]  id
+float32[] left_roi
+float32[] right_roi

@@ -1,9 +1,9 @@
 {
   "package_name": "cmrosutils",
-  "output_dir": "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_typesupport_fastrtps_cpp/cmrosutils",
+  "output_dir": "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_typesupport_fastrtps_cpp/cmrosutils",
   "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_adapter/cmrosutils:srv/CMRemote.idl"
+    "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_adapter/cmrosutils:srv/CMRemote.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/galactic/share/std_msgs/msg/Bool.idl",
@@ -48,7 +48,7 @@
     "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_adapter/cmrosutils/srv/CMRemote.idl",
+    "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_adapter/cmrosutils/srv/CMRemote.idl",
     "/opt/ros/galactic/share/std_msgs/msg/Bool.idl",
     "/opt/ros/galactic/share/std_msgs/msg/Byte.idl",
     "/opt/ros/galactic/share/std_msgs/msg/ByteMultiArray.idl",

@@ -1,1 +1,0 @@
-Invoking command in '/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client': /usr/bin/cmake /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client

@@ -1,1 +1,3 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_cmake/srv/CMRemote_Response.msg
+
+int32  res    # result of triggered service
+string msg    # informational, e.g. for error messages
