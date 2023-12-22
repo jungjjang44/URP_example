@@ -1,1 +1,14 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter/hellocm_msgs/msg/SignalLightIn.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hellocm_msgs/msg/SignalLightIn.msg
+// generated code does not contain a copyright notice
+
+
+module hellocm_msgs {
+  module msg {
+    struct SignalLightIn {
+      int8 signal_light;
+
+      boolean hazard;
+    };
+  };
+};

@@ -1,1 +1,3 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_cmake/srv/CMRemote_Request.msg
+string type   # general type of command
+string msg    # message to be evaluated
+string data   # additional data, e.g. command arguments, ...

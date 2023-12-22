@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_msgs",
-  "non_idl_tuples": [
-    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs:msg/Object.msg",
-    "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs:msg/Paths.msg"
-  ]
-}

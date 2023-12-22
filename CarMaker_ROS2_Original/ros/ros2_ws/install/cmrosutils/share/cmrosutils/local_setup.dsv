@@ -1,1 +1,4 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/ament_cmake_environment_hooks/local_setup.dsv
+source;share/cmrosutils/environment/ament_prefix_path.sh
+source;share/cmrosutils/environment/library_path.sh
+source;share/cmrosutils/environment/path.sh
+source;share/cmrosutils/environment/pythonpath.sh

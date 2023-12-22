@@ -1,1 +1,8 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_msgs/msg/Ext2CM.msg
+#
+# Message from external ROS Node to CarMaker ROS Node
+#
+
+# General
+std_msgs/Header header                         # General ROS Header (optional)
+builtin_interfaces/Time time                   # ROS time when message was sent (optional)
+int64   cycleno                                # Cycle number since simulation start (optional)

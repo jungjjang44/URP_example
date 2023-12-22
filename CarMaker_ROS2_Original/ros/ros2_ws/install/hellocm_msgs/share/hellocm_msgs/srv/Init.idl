@@ -1,1 +1,27 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter/hellocm_msgs/srv/Init.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hellocm_msgs/srv/Init.srv
+// generated code does not contain a copyright notice
+
+
+module hellocm_msgs {
+  module srv {
+    struct Init_Request {
+      @verbatim (language="comment", text=
+        " informational, e.g. name of triggering node")
+      string message;
+    };
+    struct Init_Response {
+      @verbatim (language="comment", text=
+        " indicate successful run of triggered service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " default cycle time in ms")
+      int32 cycletime;
+
+      @verbatim (language="comment", text=
+        " informational, e.g. for error messages")
+      string message;
+    };
+  };
+};

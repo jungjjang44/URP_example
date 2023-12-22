@@ -1054,3 +1054,10 @@ SIM	1702898077	amlab	amlab	unknown	0	1.012	0.0149863
 SIM	1702900378	amlab	amlab	unknown	0	18.088	15.0481
 SIM	1702900461	amlab	amlab	unknown	0	3.213	0.313028
 SIM	1702900485	amlab	amlab	unknown	0	12.54	37.1563
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 12:59:00
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703217542	amlab			0	0	0

@@ -1,1 +1,5 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/custom_msgs/msg/Object.msg
+float32 id
+float32 x
+float32 y
+float32 heading
+int64 collision_status

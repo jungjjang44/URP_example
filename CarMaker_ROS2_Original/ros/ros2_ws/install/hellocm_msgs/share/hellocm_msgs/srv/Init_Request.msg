@@ -1,1 +1,1 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_cmake/srv/Init_Request.msg
+string message    # informational, e.g. name of triggering node

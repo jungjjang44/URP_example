@@ -1,1 +1,4 @@
-/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm_msgs/rosidl_cmake/srv/Init_Response.msg
+
+bool   success    # indicate successful run of triggered service
+int32  cycletime  # default cycle time in ms 
+string message    # informational, e.g. for error messages

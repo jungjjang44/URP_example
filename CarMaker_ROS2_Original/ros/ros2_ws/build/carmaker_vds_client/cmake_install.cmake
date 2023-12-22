@@ -1,8 +1,8 @@
-# Install script for directory: /home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client
+# Install script for directory: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client")
+  set(CMAKE_INSTALL_PREFIX "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/carmaker_vds_client")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,90 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client" TYPE EXECUTABLE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/carmaker_vds_client_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node"
+         OLD_RPATH "/opt/ros/galactic/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client/carmaker_vds_client_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE DIRECTORY FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carmaker_vds_client" TYPE PROGRAM FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/launch/IPGMovie_VDS_helper.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/carmaker_vds_client")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/carmaker_vds_client")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client/environment" TYPE FILE FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client/environment" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client/environment" TYPE FILE FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client/environment" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_index/share/ament_index/resource_index/packages/carmaker_vds_client")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client/cmake" TYPE FILE FILES
+    "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_core/carmaker_vds_clientConfig.cmake"
+    "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/ament_cmake_core/carmaker_vds_clientConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carmaker_vds_client" TYPE FILE FILES "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/carmaker_vds_client/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/carmaker_vds_client/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

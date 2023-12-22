@@ -1,3 +1,0 @@
-string type   # general type of command
-string msg    # message to be evaluated
-string data   # additional data, e.g. command arguments, ...

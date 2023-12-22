@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/amlab/CarMaker_ROS2_Original/ros/ros2_ws/build/cmrosutils/rosidl_generator_py/cmrosutils/cmrosutils_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "cmrosutils__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/cmrosutils")
