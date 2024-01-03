@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target cm_control_example[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:13:26:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream output_file[m[K’ has initializer but incomplete type
+   13 | std::ofstream output_file[01;31m[K([m[K"map/road.json");
+      |                          [01;31m[K^[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:36:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   36 |         double [01;35m[Kx[m[K = msg->data[15];
+      |                [01;35m[K^[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:37:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |         double [01;35m[Ky[m[K = msg->data[16];
+      |                [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

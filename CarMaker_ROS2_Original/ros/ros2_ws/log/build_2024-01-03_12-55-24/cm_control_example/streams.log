@@ -1,0 +1,33 @@
+[0.081s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12
+[0.107s] [35m[1mScanning dependencies of target cm_control_example[0m
+[0.122s] [ 33%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[1.033s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.033s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:35:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.033s]    35 |         double [01;35m[Kx[m[K = msg->data[15];
+[1.033s]       |                [01;35m[K^[m[K
+[1.033s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:36:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.033s]    36 |         double [01;35m[Ky[m[K = msg->data[16];
+[1.033s]       |                [01;35m[K^[m[K
+[3.629s] [ 66%] [32m[1mLinking CXX executable cm_control_example[0m
+[3.812s] [100%] Built target cm_control_example
+[3.818s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12
+[3.838s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example
+[3.843s] -- Install configuration: ""
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/ament_index/resource_index/package_run_dependencies/cm_control_example
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/ament_index/resource_index/parent_prefix_path/cm_control_example
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/environment/ament_prefix_path.sh
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/environment/ament_prefix_path.dsv
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/environment/path.sh
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/environment/path.dsv
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/local_setup.bash
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/local_setup.sh
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/local_setup.zsh
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/local_setup.dsv
+[3.843s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/package.dsv
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/ament_index/resource_index/packages/cm_control_example
+[3.843s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/cmake/cm_control_exampleConfig.cmake
+[3.844s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/cmake/cm_control_exampleConfig-version.cmake
+[3.844s] -- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/share/cm_control_example/package.xml
+[3.844s] -- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/lib/cm_control_example/cm_control_example
+[3.845s] -- Set runtime path of "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cm_control_example/lib/cm_control_example/cm_control_example" to ""
+[3.847s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example

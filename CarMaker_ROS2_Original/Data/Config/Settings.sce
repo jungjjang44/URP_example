@@ -1,8 +1,8 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = Scenario-Config 1.0
 FileCreator = CarMaker 9.1.1 2020-12-18
-Scene.Country = KOR
-Scene.Country2 = DEU
+Scene.Country = DEU
+Scene.Country2 =
 Scene.DrivingSide = right
 Import.HDLM.ImportByRoute = 0
 Import.HDLM.LatCoord0 =

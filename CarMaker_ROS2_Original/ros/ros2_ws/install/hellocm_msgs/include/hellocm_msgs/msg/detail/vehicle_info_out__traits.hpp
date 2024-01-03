@@ -212,6 +212,26 @@ inline void to_yaml(
     value_to_yaml(msg.yaw_acc, out);
     out << "\n";
   }
+
+  // member: x
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "x: ";
+    value_to_yaml(msg.x, out);
+    out << "\n";
+  }
+
+  // member: y
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "y: ";
+    value_to_yaml(msg.y, out);
+    out << "\n";
+  }
 }  // NOLINT(readability/fn_size)
 
 inline std::string to_yaml(const hellocm_msgs::msg::VehicleInfoOut & msg)

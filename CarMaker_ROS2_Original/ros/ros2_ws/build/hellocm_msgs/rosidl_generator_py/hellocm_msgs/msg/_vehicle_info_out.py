@@ -80,6 +80,8 @@ class VehicleInfoOut(metaclass=Metaclass_VehicleInfoOut):
         '_roll_acc',
         '_pitch_acc',
         '_yaw_acc',
+        '_x',
+        '_y',
     ]
 
     _fields_and_field_types = {
@@ -102,12 +104,16 @@ class VehicleInfoOut(metaclass=Metaclass_VehicleInfoOut):
         'roll_acc': 'double',
         'pitch_acc': 'double',
         'yaw_acc': 'double',
+        'x': 'double',
+        'y': 'double',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['builtin_interfaces', 'msg'], 'Time'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
@@ -151,6 +157,8 @@ class VehicleInfoOut(metaclass=Metaclass_VehicleInfoOut):
         self.roll_acc = kwargs.get('roll_acc', float())
         self.pitch_acc = kwargs.get('pitch_acc', float())
         self.yaw_acc = kwargs.get('yaw_acc', float())
+        self.x = kwargs.get('x', float())
+        self.y = kwargs.get('y', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -218,6 +226,10 @@ class VehicleInfoOut(metaclass=Metaclass_VehicleInfoOut):
         if self.pitch_acc != other.pitch_acc:
             return False
         if self.yaw_acc != other.yaw_acc:
+            return False
+        if self.x != other.x:
+            return False
+        if self.y != other.y:
             return False
         return True
 
@@ -476,3 +488,29 @@ class VehicleInfoOut(metaclass=Metaclass_VehicleInfoOut):
                 isinstance(value, float), \
                 "The 'yaw_acc' field must be of type 'float'"
         self._yaw_acc = value
+
+    @property
+    def x(self):
+        """Message field 'x'."""
+        return self._x
+
+    @x.setter
+    def x(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'x' field must be of type 'float'"
+        self._x = value
+
+    @property
+    def y(self):
+        """Message field 'y'."""
+        return self._y
+
+    @y.setter
+    def y(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'y' field must be of type 'float'"
+        self._y = value

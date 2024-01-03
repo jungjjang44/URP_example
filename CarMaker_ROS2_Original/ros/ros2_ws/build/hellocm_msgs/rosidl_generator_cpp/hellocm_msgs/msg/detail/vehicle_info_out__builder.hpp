@@ -20,16 +20,48 @@ namespace msg
 namespace builder
 {
 
+class Init_VehicleInfoOut_y
+{
+public:
+  explicit Init_VehicleInfoOut_y(::hellocm_msgs::msg::VehicleInfoOut & msg)
+  : msg_(msg)
+  {}
+  ::hellocm_msgs::msg::VehicleInfoOut y(::hellocm_msgs::msg::VehicleInfoOut::_y_type arg)
+  {
+    msg_.y = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::hellocm_msgs::msg::VehicleInfoOut msg_;
+};
+
+class Init_VehicleInfoOut_x
+{
+public:
+  explicit Init_VehicleInfoOut_x(::hellocm_msgs::msg::VehicleInfoOut & msg)
+  : msg_(msg)
+  {}
+  Init_VehicleInfoOut_y x(::hellocm_msgs::msg::VehicleInfoOut::_x_type arg)
+  {
+    msg_.x = std::move(arg);
+    return Init_VehicleInfoOut_y(msg_);
+  }
+
+private:
+  ::hellocm_msgs::msg::VehicleInfoOut msg_;
+};
+
 class Init_VehicleInfoOut_yaw_acc
 {
 public:
   explicit Init_VehicleInfoOut_yaw_acc(::hellocm_msgs::msg::VehicleInfoOut & msg)
   : msg_(msg)
   {}
-  ::hellocm_msgs::msg::VehicleInfoOut yaw_acc(::hellocm_msgs::msg::VehicleInfoOut::_yaw_acc_type arg)
+  Init_VehicleInfoOut_x yaw_acc(::hellocm_msgs::msg::VehicleInfoOut::_yaw_acc_type arg)
   {
     msg_.yaw_acc = std::move(arg);
-    return std::move(msg_);
+    return Init_VehicleInfoOut_x(msg_);
   }
 
 private:

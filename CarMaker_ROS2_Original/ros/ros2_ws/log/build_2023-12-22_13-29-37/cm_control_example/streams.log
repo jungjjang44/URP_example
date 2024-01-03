@@ -1,0 +1,56 @@
+[0.084s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12
+[0.110s] [35m[1mScanning dependencies of target cm_control_example[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[1.067s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.067s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:27:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.067s]    27 | cleInfoCallback([01;35m[Kconst std_msgs::msg::Float64MultiArray::SharedPtr msg[m[K)
+[1.067s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.067s] 
+[1.070s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::timer_callback()[m[K’:
+[1.070s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[1.070s]    38 |             msg_CM.data = {[01;31m[Kmode[m[K, steer_input, acc_input, 3, 1};
+[1.070s]       |                            [01;31m[K^~~~[m[K
+[1.070s]       |                            [32m[KNode[m[K
+[1.070s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:38:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[1.070s]    38 |             msg_CM.data = {mode, steer_input, acc_input, 3, 1[01;31m[K}[m[K;
+[1.070s]       |                                                              [01;31m[K^[m[K
+[1.070s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[1.070s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.070s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.070s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.070s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+[1.070s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.070s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.071s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.071s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:2[m[K:
+[1.071s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[1.071s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[1.071s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.071s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[1.071s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[1.071s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.071s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.071s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.071s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.071s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.071s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+[1.071s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.071s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.071s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.071s]                  from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:2[m[K:
+[1.071s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[1.071s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.071s]       |       [01;36m[K^~~~~~~~[m[K
+[1.071s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’
+[1.071s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.071s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.071s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[1.071s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[1.071s]       |       [01;36m[K^~~~~~~~[m[K
+[1.071s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<double>[m[K’
+[1.071s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[1.071s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.936s] make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+[1.936s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+[1.936s] make: *** [Makefile:141: all] Error 2
+[1.938s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12

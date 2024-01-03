@@ -190,6 +190,16 @@ static bool _VehicleInfoOut__cdr_serialize(
     cdr << ros_message->yaw_acc;
   }
 
+  // Field name: x
+  {
+    cdr << ros_message->x;
+  }
+
+  // Field name: y
+  {
+    cdr << ros_message->y;
+  }
+
   return true;
 }
 
@@ -313,6 +323,16 @@ static bool _VehicleInfoOut__cdr_deserialize(
   // Field name: yaw_acc
   {
     cdr >> ros_message->yaw_acc;
+  }
+
+  // Field name: x
+  {
+    cdr >> ros_message->x;
+  }
+
+  // Field name: y
+  {
+    cdr >> ros_message->y;
   }
 
   return true;
@@ -439,6 +459,18 @@ size_t get_serialized_size_hellocm_msgs__msg__VehicleInfoOut(
   // field.name yaw_acc
   {
     size_t item_size = sizeof(ros_message->yaw_acc);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name x
+  {
+    size_t item_size = sizeof(ros_message->x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name y
+  {
+    size_t item_size = sizeof(ros_message->y);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -601,6 +633,20 @@ size_t max_serialized_size_hellocm_msgs__msg__VehicleInfoOut(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
   // member: yaw_acc
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: x
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: y
   {
     size_t array_size = 1;
 

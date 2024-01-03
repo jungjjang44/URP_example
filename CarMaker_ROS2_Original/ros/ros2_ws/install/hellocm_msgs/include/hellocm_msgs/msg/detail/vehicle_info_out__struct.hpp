@@ -62,6 +62,8 @@ struct VehicleInfoOut_
       this->roll_acc = 0.0;
       this->pitch_acc = 0.0;
       this->yaw_acc = 0.0;
+      this->x = 0.0;
+      this->y = 0.0;
     }
   }
 
@@ -89,6 +91,8 @@ struct VehicleInfoOut_
       this->roll_acc = 0.0;
       this->pitch_acc = 0.0;
       this->yaw_acc = 0.0;
+      this->x = 0.0;
+      this->y = 0.0;
     }
   }
 
@@ -150,6 +154,12 @@ struct VehicleInfoOut_
   using _yaw_acc_type =
     double;
   _yaw_acc_type yaw_acc;
+  using _x_type =
+    double;
+  _x_type x;
+  using _y_type =
+    double;
+  _y_type y;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -266,6 +276,18 @@ struct VehicleInfoOut_
     this->yaw_acc = _arg;
     return *this;
   }
+  Type & set__x(
+    const double & _arg)
+  {
+    this->x = _arg;
+    return *this;
+  }
+  Type & set__y(
+    const double & _arg)
+  {
+    this->y = _arg;
+    return *this;
+  }
 
   // constant declarations
 
@@ -364,6 +386,12 @@ struct VehicleInfoOut_
       return false;
     }
     if (this->yaw_acc != other.yaw_acc) {
+      return false;
+    }
+    if (this->x != other.x) {
+      return false;
+    }
+    if (this->y != other.y) {
       return false;
     }
     return true;

@@ -1,0 +1,10 @@
+APPLICATION	Car_Generic with CMRosIF #17 (linux64-9.1.1)
+COMPILED	amlab@amlab 2023-12-22 12:56:57
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101

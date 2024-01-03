@@ -233,6 +233,24 @@ bool hellocm_msgs__msg__vehicle_info_out__convert_from_py(PyObject * _pymsg, voi
     ros_message->yaw_acc = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // x
+    PyObject * field = PyObject_GetAttrString(_pymsg, "x");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->x = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // y
+    PyObject * field = PyObject_GetAttrString(_pymsg, "y");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->y = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -464,6 +482,28 @@ PyObject * hellocm_msgs__msg__vehicle_info_out__convert_to_py(void * raw_ros_mes
     field = PyFloat_FromDouble(ros_message->yaw_acc);
     {
       int rc = PyObject_SetAttrString(_pymessage, "yaw_acc", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // x
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->x);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "x", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // y
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->y);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "y", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

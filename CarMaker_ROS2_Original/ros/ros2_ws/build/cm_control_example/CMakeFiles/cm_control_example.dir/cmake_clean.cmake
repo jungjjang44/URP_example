@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cm_control_example.dir/src/jsoncpp.cpp.o"
   "CMakeFiles/cm_control_example.dir/src/main.cpp.o"
   "cm_control_example"
   "cm_control_example.pdb"

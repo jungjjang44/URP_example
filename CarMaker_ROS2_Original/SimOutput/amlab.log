@@ -1061,3 +1061,144 @@ SYSTEM_START	-	amlab	amlab	2023-12-22 12:59:00
 
 SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
 SIM	1703217542	amlab			0	0	0
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 13:17:50
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703218672	amlab			0	0	0
+SIM	1703218787	amlab	amlab	example2	422	0	0
+SIM	1703219052	amlab	amlab	example2	0	6.174	8.76346
+SIM	1703219097	amlab	amlab	example2	0	6.334	9.24491
+SIM	1703219139	amlab	amlab	example2	0	9.9	65.1637
+SIM	1703219450	amlab	amlab	example2	0	5.96	8.13944
+SIM	1703219489	amlab	amlab	example2	0	84.766	484.263
+SIM	1703219590	amlab	amlab	example2	1	1.847	0.787756
+SIM	1703219599	amlab	amlab	example2	1	1.847	0.787756
+SIM	1703219632	amlab	amlab	example2	0	3.959	16.2479
+SIM	1703219650	amlab	amlab	example2	0	1.956	3.41106
+SIM	1703219666	amlab	amlab	example2	0	5.36	27.3469
+SIM	1703219721	amlab	amlab	example2	1	22.423	120.344
+SIM	1703219760	amlab	amlab	example2	0	3.433	12.3502
+SIM	1703220076	amlab	amlab	example2	0	14.652	106.1
+SIM	1703220171	amlab	amlab	example2	91	0	106.1
+SIM	1703220181	amlab	amlab	example2	91	0	0
+SIM	1703220317	amlab	amlab	example2	80	0	0
+SIM	1703220431	amlab	amlab	example2	0	62.137	500.292
+SIM	1703221116	amlab	amlab	example2	0	15.063	108.035
+SIM	1703221145	amlab	amlab	example2	0	120.395	985.773
+SIM	1703221205	amlab	amlab	example2	0	127.145	1042.01
+SIM	1703221361	amlab	amlab	example2	0	146.343	1202.04
+SIM	1703222951	amlab	amlab	example2	0	15.467	1.14053
+SIM	1703223003	amlab	amlab	example2	0	2.573	0.0353866
+SIM	1703223064	amlab	amlab	example2	0	10.991	3.99704
+SIM	1703223093	amlab	amlab	example2	0	5.616	29.4335
+SIM	1703223146	amlab	amlab	example2	0	10.601	0.171955
+SIM	1703223522	amlab	amlab	example2	0	21.867	0.126062
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 15:54:54
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703228096	amlab			0	0	0
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-23 01:01:46
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703228508	amlab			0	0	0
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 16:03:53
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703228635	amlab			0	0	0
+SIM	1703228726	amlab	amlab	opendrive_map_test1	1	0	0
+SIM	1703229062	amlab	amlab	opendrive_map_test1	0	47.46	1.58713
+SIM	1703229185	amlab	amlab	opendrive_map_test1	0	20.74	49.0476
+SIM	1703229259	amlab	amlab	opendrive_map_test1	0	3.586	0.0594272
+SIM	1703229388	amlab	amlab	opendrive_map_test1	0	11.524	26.081
+SIM	1703229414	amlab	amlab	example	0	5.479	4.62448
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 16:36:54
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 16:37:30
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 16:38:41
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+
+
+SYSTEM_START	-	amlab	amlab	2023-12-22 16:39:43
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1703230786	amlab			0	0	0
+SIM	1703230825	amlab	amlab	opendrive_map_test1	0	4.722	4.7922
+SIM	1703230869	amlab	amlab	opendrive_map_test1	0	23.083	174.828
+SIM	1703231024	amlab	amlab	opendrive_map_test1	2	0	174.828
+SIM	1703231066	amlab	amlab	opendrive_map_test1	0	30.839	238.434
+
+
+SYSTEM_START	-	amlab	amlab	2024-01-01 18:02:27
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1704099749	amlab			0	0	0
+SIM	1704099922	amlab	amlab	example2	0	25.168	0.386928
+SIM	1704100040	amlab	amlab	example2	0	16.314	0.258503
+SIM	1704100114	amlab	amlab	example2	0	104.051	849.586
+SIM	1704100435	amlab	amlab	example2	0	209.468	1728.06
+
+
+SYSTEM_START	-	amlab	amlab	2024-01-03 12:35:13
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+
+
+SYSTEM_START	-	amlab	amlab	2024-01-03 12:35:24
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+
+
+SYSTEM_START	-	amlab	amlab	2024-01-03 12:35:52
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1704252954	amlab			0	0	0
+SIM	1704252978	amlab	amlab	example3	1	0	0
+SIM	1704253006	amlab	amlab	example3	1	40.825	419.528
+SIM	1704253099	amlab	amlab	example3	0	29.794	373.068
+SIM	1704253149	amlab	amlab	example3	0	19.04	172.36
+SIM	1704253192	amlab	amlab	example3	0	172.503	2352.73
+SIM	1704253416	amlab	amlab	example3	0	5.53	37.0812
+SIM	1704253448	amlab	amlab	example3	0	7.21	59.6024
+SIM	1704253705	amlab	amlab	example3	0	4.428	23.4866
+SIM	1704253837	amlab	amlab	example3	0	30.258	378.218
+
+
+SYSTEM_START	-	amlab	amlab	2024-01-03 12:51:56
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #17	amlab@amlab 2023-12-22 12:56:57	(9.1.1 fh@obelix.ipg 2020-12-18 15:48:20)
+SIM	1704253918	amlab			0	0	0
+SIM	1704253963	amlab	amlab	example3	0	2.888	8.86004
+SIM	1704254920	amlab	amlab	example3	0	8.818	81.7719
+SIM	1704255283	amlab	amlab	example3	0	114.072	1542.55
+SIM	1704256750	amlab	amlab	example3	0	142.069	1931.3

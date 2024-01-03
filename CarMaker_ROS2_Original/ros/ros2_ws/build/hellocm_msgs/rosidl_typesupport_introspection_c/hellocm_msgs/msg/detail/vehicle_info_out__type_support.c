@@ -41,7 +41,7 @@ void VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_fini_fun
   hellocm_msgs__msg__VehicleInfoOut__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_message_member_array[19] = {
+static rosidl_typesupport_introspection_c__MessageMember VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_message_member_array[21] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -326,13 +326,43 @@ static rosidl_typesupport_introspection_c__MessageMember VehicleInfoOut__rosidl_
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "x",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(hellocm_msgs__msg__VehicleInfoOut, x),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "y",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(hellocm_msgs__msg__VehicleInfoOut, y),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_message_members = {
   "hellocm_msgs__msg",  // message namespace
   "VehicleInfoOut",  // message name
-  19,  // number of fields
+  21,  // number of fields
   sizeof(hellocm_msgs__msg__VehicleInfoOut),
   VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_message_member_array,  // message members
   VehicleInfoOut__rosidl_typesupport_introspection_c__VehicleInfoOut_init_function,  // function to initialize message memory (memory has to be allocated)

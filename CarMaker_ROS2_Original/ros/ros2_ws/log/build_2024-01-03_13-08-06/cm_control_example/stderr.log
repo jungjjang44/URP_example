@@ -1,0 +1,7 @@
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:45:14:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   45 |         std::[01;31m[Kthis[m[K->thread::sleep_for(std::chrono::milliseconds(500));
+      |              [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,154 @@
+APPLICATION	Car_Generic with CMRosIF #17 (linux64-9.1.1)
+COMPILED	amlab@amlab 2023-12-22 12:56:57
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 00002
+		  -> CM Version   = 90101
+		  -> Has param 'use_sim_time' with value '0'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Publish '/pointcloud/os1'
+		  -> Publish '/gps_out'
+		  -> Publish '/imu_out'
+		  -> Publish '/vehicle_info_out'
+		  -> Publish '/objectinfo_out'
+		  -> Publish '/pointcloud/os1_pc2'
+		  -> Publish '/Lane/Left0'
+		  -> Publish '/Lane/Left1'
+		  -> Publish '/Lane/Right0'
+		  -> Publish '/Lane/Right1'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = 'CMNode'
+		  -> Namespace = '/'
+		    -> Connected Topics (111)
+		    -> /HGuide/Std/Imu
+		    -> /HGuide/Std/NavSatFix
+		    -> /HGuide/Std/Odometry
+		    -> /HGuide/Std/TimeReference
+		    -> /HGuide/Std/TwistWithCovarianceStamped
+		    -> /Lane/Left0
+		    -> /Lane/Left1
+		    -> /Lane/Right0
+		    -> /Lane/Right1
+		    -> /carmaker/gps_out2
+		    -> /carmaker/imu_out2
+		    -> /carmaker/object_info_out2
+		    -> /carmaker/vehicle_info_out2
+		    -> /clicked_point
+		    -> /clock
+		    -> /cmlpp/IDM_flag
+		    -> /cmlpp/Overtaking_flag
+		    -> /cmlpp/Overtaking_region_flag
+		    -> /cmlpp/closest_idx
+		    -> /cmlpp/lapnum
+		    -> /cmlpp/traffic_sign
+		    -> /cmlpp/traffic_sign_lidar
+		    -> /control/acc_type
+		    -> /control/ad_status
+		    -> /control/cm_save_custom
+		    -> /control/control_rqt
+		    -> /control/corner
+		    -> /control/cur_speed_limit
+		    -> /control/degreetuning
+		    -> /control/goal_acc
+		    -> /control/goal_acc_type
+		    -> /control/path_offset
+		    -> /control/vehicle_control
+		    -> /control/visualization_ego
+		    -> /control/visualization_ego_array
+		    -> /control/visualization_eps_line
+		    -> /control/visualization_eps_line_SP
+		    -> /control/visualization_far
+		    -> /control/visualization_far_array
+		    -> /control/visualization_path
+		    -> /control/visualization_path_array
+		    -> /control/visualization_pp
+		    -> /control/visualization_pp_array
+		    -> /control/visualization_st
+		    -> /goal_pose
+		    -> /gpp/global_path
+		    -> /gps_out
+		    -> /gui/PP_en
+		    -> /gui/Stanley_en
+		    -> /gui/acc_en
+		    -> /gui/ad_status
+		    -> /gui/eps_en
+		    -> /gui/far_point
+		    -> /gui/force_lane_change
+		    -> /gui/force_speed
+		    -> /gui/gd_min_vel
+		    -> /gui/gear_en
+		    -> /gui/init_pos_pub
+		    -> /gui/lookahead_point
+		    -> /gui/map
+		    -> /gui/pp_gain
+		    -> /gui/scaling_factor
+		    -> /gui/scaling_factor_out
+		    -> /gui/sensor
+		    -> /gui/speed_limit
+		    -> /gui/stanley_gain
+		    -> /gui/stanley_point
+		    -> /gui/tuning_gain
+		    -> /gui/version
+		    -> /hellocm/cm2ext
+		    -> /hellocm/ext2cm
+		    -> /image_detection
+		    -> /imu_out
+		    -> /initialpose
+		    -> /ins_status
+		    -> /localization/ego_info
+		    -> /localization/ego_pose
+		    -> /localization/surface_mark
+		    -> /lpp/blinking_signal
+		    -> /lpp/driving_status
+		    -> /lpp/global_request
+		    -> /lpp/item_minus_pc2
+		    -> /lpp/item_pc2
+		    -> /lpp/lpp_velocity
+		    -> /lpp/request_data
+		    -> /lpp/rviz_cm_object
+		    -> /lpp/rviz_local_path
+		    -> /lpp/rviz_local_path_center
+		    -> /lpp/rviz_local_path_left
+		    -> /lpp/rviz_local_path_right
+		    -> /lpp/rviz_roi_center
+		    -> /lpp/rviz_roi_left
+		    -> /lpp/rviz_roi_main
+		    -> /lpp/rviz_roi_right
+		    -> /lpp/save_mission_status
+		    -> /lpp/waypoint_pc2
+		    -> /objectinfo_out
+		    -> /parameter_events
+		    -> /plot/local_path_x
+		    -> /plot/local_path_y
+		    -> /pointcloud/os1
+		    -> /pointcloud/os1_pc2
+		    -> /rosout
+		    -> /sign/pre_yolo
+		    -> /signal_light
+		    -> /tf
+		    -> /tf_static
+		    -> /v2x/mission_status
+		    -> /v2x/v2x_goal
+		    -> /v2x/v2x_goal_id
+		    -> /vehicle_info_out
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2023-12-22 15:54:56
+TIME	0.000
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	15:54:57
+TIME	14.072
+SHUTDOWN	CarMaker quick shutdown initiated
+
+		CMRosIF_CMNode_End: End

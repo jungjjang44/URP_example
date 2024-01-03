@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target cm_control_example[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:[m[K In member function ‘[01m[Kvoid cm_control_example::vehicleInfoCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:30:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float64MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ksize[m[K’
+   30 |         for (int i=0; i<msg.[01;31m[Ksize[m[K(); i++) {
+      |                             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

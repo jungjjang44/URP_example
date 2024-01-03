@@ -45,6 +45,8 @@ typedef struct hellocm_msgs__msg__VehicleInfoOut
   double roll_acc;
   double pitch_acc;
   double yaw_acc;
+  double x;
+  double y;
 } hellocm_msgs__msg__VehicleInfoOut;
 
 // Struct for a sequence of hellocm_msgs__msg__VehicleInfoOut.

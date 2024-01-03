@@ -37,7 +37,7 @@ void VehicleInfoOut_fini_function(void * message_memory)
   typed_message->~VehicleInfoOut();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember VehicleInfoOut_message_member_array[19] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember VehicleInfoOut_message_member_array[21] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -322,13 +322,43 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember VehicleInfoOu
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "x",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(hellocm_msgs::msg::VehicleInfoOut, x),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "y",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(hellocm_msgs::msg::VehicleInfoOut, y),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers VehicleInfoOut_message_members = {
   "hellocm_msgs::msg",  // message namespace
   "VehicleInfoOut",  // message name
-  19,  // number of fields
+  21,  // number of fields
   sizeof(hellocm_msgs::msg::VehicleInfoOut),
   VehicleInfoOut_message_member_array,  // message members
   VehicleInfoOut_init_function,  // function to initialize message memory (memory has to be allocated)

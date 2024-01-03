@@ -120,6 +120,10 @@ cdr_serialize(
   cdr << ros_message.pitch_acc;
   // Member: yaw_acc
   cdr << ros_message.yaw_acc;
+  // Member: x
+  cdr << ros_message.x;
+  // Member: y
+  cdr << ros_message.y;
   return true;
 }
 
@@ -187,6 +191,12 @@ cdr_deserialize(
 
   // Member: yaw_acc
   cdr >> ros_message.yaw_acc;
+
+  // Member: x
+  cdr >> ros_message.x;
+
+  // Member: y
+  cdr >> ros_message.y;
 
   return true;
 }
@@ -313,6 +323,18 @@ get_serialized_size(
   // Member: yaw_acc
   {
     size_t item_size = sizeof(ros_message.yaw_acc);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: x
+  {
+    size_t item_size = sizeof(ros_message.x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: y
+  {
+    size_t item_size = sizeof(ros_message.y);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -488,6 +510,22 @@ max_serialized_size_VehicleInfoOut(
   }
 
   // Member: yaw_acc
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: x
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: y
   {
     size_t array_size = 1;
 

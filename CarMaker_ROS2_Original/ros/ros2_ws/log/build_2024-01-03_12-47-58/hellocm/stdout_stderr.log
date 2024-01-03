@@ -1,0 +1,79 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+-- Found cmrosutils: 0.0.0 (/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake)
+-- Found hellocm_msgs: 0.0.0 (/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/hellocm
+[35m[1mScanning dependencies of target hellocm_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o[0m
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:35:4:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+   35 | #  [01;35m[Kwarning[m[K "Debug options are enabled!"
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:35:4:[m[K [01;35m[Kwarning: [m[K#warning "Debug options are enabled!" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kbool ros_HelloCM_CB_SrvInit(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<hellocm_msgs::srv::Init_Request_<std::allocator<void> > >, std::shared_ptr<hellocm_msgs::srv::Init_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:95:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |         [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:96:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   96 |         [01;35m[Kstd::shared_ptr<hellocm_msgs::srv::Init::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint ros_HelloCM_Init(int, char**)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:285:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  285 |         [01;35m[Knode->declare_parameter(sbuf)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/include/cmrosutils/CMRosUtils.h:36[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm/src/ROS1_HelloCM.cpp:27[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable hellocm_node[0m
+[100%] Built target hellocm_node
+-- Install configuration: ""
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/lib/hellocm/hellocm_node
+-- Set runtime path of "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/lib/hellocm/hellocm_node" to ""
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/include/hellocm/
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/include/hellocm//ROS1_HelloCM.h
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/launch
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/launch/hellocm.launch.py
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/ament_index/resource_index/package_run_dependencies/hellocm
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/ament_index/resource_index/parent_prefix_path/hellocm
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/environment/ament_prefix_path.sh
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/environment/path.sh
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/environment/path.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/local_setup.bash
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/local_setup.sh
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/local_setup.zsh
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/local_setup.dsv
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/package.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/ament_index/resource_index/packages/hellocm
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/cmake/hellocmConfig.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/cmake/hellocmConfig-version.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm/share/hellocm/package.xml

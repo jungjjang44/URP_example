@@ -28,7 +28,7 @@ endif()
 
 ament_package()
 
-add_executable(cm_control_example src/main.cpp)
+add_executable(cm_control_example src/main.cpp src/jsoncpp.cpp)
 
 ament_target_dependencies(cm_control_example rclcpp std_msgs visualization_msgs)
 

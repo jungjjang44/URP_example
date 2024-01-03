@@ -56,6 +56,10 @@ module hellocm_msgs {
       double pitch_acc;
 
       double yaw_acc;
+
+      double x;
+
+      double y;
     };
   };
 };

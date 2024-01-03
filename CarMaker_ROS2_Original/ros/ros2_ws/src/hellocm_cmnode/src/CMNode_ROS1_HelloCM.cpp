@@ -1803,6 +1803,10 @@ CMRosIF_CMNode_Calc (double dt)
                 CMNode.Topics.Pub.VehicleInfoOut.Msg.pitch_acc    = Car.PitchAcc;
                 CMNode.Topics.Pub.VehicleInfoOut.Msg.yaw_acc      = Car.YawAcc;
 
+                CMNode.Topics.Pub.VehicleInfoOut.Msg.x            = Car.ConBdy1.t_0[0];
+                CMNode.Topics.Pub.VehicleInfoOut.Msg.y            = Car.ConBdy1.t_0[1];
+
+
         }
 // #endif
                 unsigned int lane_noise = 50;
@@ -2221,6 +2225,9 @@ CMRosIF_CMNode_Out (void)
         msg2.data.push_back(out_VehicleInfoOut->Msg.pitch_acc);
         msg2.data.push_back(out_VehicleInfoOut->Msg.yaw_acc);
 
+        msg2.data.push_back(out_VehicleInfoOut->Msg.x);
+        msg2.data.push_back(out_VehicleInfoOut->Msg.y);
+        
         out_VehicleInfoOut2->Pub->publish(msg2);
 
         CMNode.Model.CycleLastOut = CMNode.CycleNoRel;

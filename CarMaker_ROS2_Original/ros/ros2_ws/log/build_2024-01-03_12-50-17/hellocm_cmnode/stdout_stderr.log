@@ -1,0 +1,122 @@
+[35m[1mScanning dependencies of target CMNode_ROS1_HelloCM[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/CMNode_ROS1_HelloCM.dir/src/CMNode_ROS1_HelloCM.cpp.o[0m
+In file included from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:56[m[K:
+[01m[K/opt/ros/galactic/include/sensor_msgs/point_cloud_conversion.hpp:53:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   53 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:158:4:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+  158 | #  [01;35m[Kwarning[m[K "Debug options are enabled!"
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:158:4:[m[K [01;35m[Kwarning: [m[K#warning "Debug options are enabled!" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_Init(int, char**, char*, tInfos*)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:595:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  595 |         [01;35m[KCMNode.Cfg.Ros.Node->declare_parameter(sbuf)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/include/cmrosutils/CMRosUtils.h:36[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:103[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_TestRun_Start_atBegin(tInfos*)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1047:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkey[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1047 |     char [01;35m[Kkey[m[K[256];
+      |          [01;35m[K^~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1048:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1048 |     char *[01;35m[Kstr[m[K        = NULL;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1050:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krvb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1050 |     bool [01;35m[Krvb[m[K                = false;
+      |          [01;35m[K^~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_In()[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1399:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1399 |     rclcpp::Duration tDelta = rclcpp::Duration(0.0[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/cmrosutils/include/cmrosutils/CMRosUtils.h:36[m[K,
+                 from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:103[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1460:75:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 3 has type ‘[01m[Krcl_duration_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+ 1460 |                 LogErrF(EC_Sim, "CMNode: Synchronization error! tDelta=[01;35m[K%.3f[m[K, Last invalid Job='%s'\n", [32m[KtDelta.nanoseconds()*1000000000[m[K, job_name);
+      |                                                                        [01;35m[K~~~^[m[K                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                           [01;35m[K|[m[K                                                [32m[K|[m[K
+      |                                                                           [01;35m[Kdouble[m[K                                           [32m[Krcl_duration_value_t {aka long int}[m[K
+      |                                                                        [32m[K%.3ld[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_DrivMan_Calc(double)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1492:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1492 | CMRosIF_CMNode_DrivMan_Calc ([01;35m[Kdouble dt[m[K)
+      |                              [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_VehicleControl_Calc(double)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1519:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1519 | CMRosIF_CMNode_VehicleControl_Calc ([01;35m[Kdouble dt[m[K)
+      |                                     [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K In function ‘[01m[Kint CMRosIF_CMNode_Calc(double)[m[K’:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1717:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1717 |                         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(pointcloud, CMNode.Topics.Pub.Lidar_OS1_PC2.Msg);
+      |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:56[m[K:
+[01m[K/opt/ros/galactic/include/sensor_msgs/point_cloud_conversion.hpp:87:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   87 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1717:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1717 |                         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(pointcloud, CMNode.Topics.Pub.Lidar_OS1_PC2.Msg)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:56[m[K:
+[01m[K/opt/ros/galactic/include/sensor_msgs/point_cloud_conversion.hpp:87:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   87 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1739:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knoise_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1739 |                 unsigned int [01;35m[Knoise_deg[m[K = 150;
+      |                              [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1740:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1740 |                 double [01;35m[Kpi[m[K = 3.1415926536897932384626433832795028841971;
+      |                        [01;35m[K^~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:1564:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1564 | CMRosIF_CMNode_Calc ([01;35m[Kdouble dt[m[K)
+      |                      [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:[m[K At global scope:
+[01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS1_HelloCM.cpp:431:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool cmnode_HelloCM_CB_SrvCMRemote(cmrosutils::srv::CMRemote::Request, cmrosutils::srv::CMRemote::Response)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  431 | [01;35m[Kcmnode_HelloCM_CB_SrvCMRemote[m[K(cmrosutils::srv::CMRemote::Request req, cmrosutils::srv::CMRemote::Response resp)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libCMNode_ROS1_HelloCM.so[0m
+[100%] Built target CMNode_ROS1_HelloCM
+-- Install configuration: ""
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so
+-- Set runtime path of "/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/lib/hellocm_cmnode/libCMNode_ROS1_HelloCM.so" to ""
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/include
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/include/a
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020_Orange.dae
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020.png
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/meshes/IPG_CompanyCar_2020_Wheel.dae
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/package_run_dependencies/hellocm_cmnode
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/parent_prefix_path/hellocm_cmnode
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.sh
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.bash
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.sh
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.zsh
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.dsv
+-- Installing: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.dsv
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/packages/hellocm_cmnode
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig-version.cmake
+-- Up-to-date: /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.xml

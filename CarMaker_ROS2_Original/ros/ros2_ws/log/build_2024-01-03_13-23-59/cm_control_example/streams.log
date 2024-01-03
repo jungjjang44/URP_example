@@ -1,0 +1,17 @@
+[0.081s] Invoking command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12
+[0.105s] [35m[1mScanning dependencies of target cm_control_example[0m
+[0.119s] [ 33%] [32mBuilding CXX object CMakeFiles/cm_control_example.dir/src/main.cpp.o[0m
+[1.044s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:29:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+[1.044s]    29 | [01;31m[Kfor[m[K (char p; ist >> p;) str += p;
+[1.044s]       | [01;31m[K^~~[m[K
+[1.044s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:29:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kist[m[K’ does not name a type; did you mean ‘[01m[Kint[m[K’?
+[1.045s]    29 | for (char p; [01;31m[Kist[m[K >> p;) str += p;
+[1.045s]       |              [01;31m[K^~~[m[K
+[1.045s]       |              [32m[Kint[m[K
+[1.045s] [01m[K/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/src/cm_control_example/src/main.cpp:29:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[1.045s]    29 | for (char p; ist >> p;[01;31m[K)[m[K str += p;
+[1.045s]       |                       [01;31m[K^[m[K
+[2.123s] make[2]: *** [CMakeFiles/cm_control_example.dir/build.make:63: CMakeFiles/cm_control_example.dir/src/main.cpp.o] Error 1
+[2.123s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cm_control_example.dir/all] Error 2
+[2.124s] make: *** [Makefile:141: all] Error 2
+[2.125s] Invoked command in '/home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/amlab/URP_example/CarMaker_ROS2_Original/ros/ros2_ws/build/cm_control_example -- -j12 -l12

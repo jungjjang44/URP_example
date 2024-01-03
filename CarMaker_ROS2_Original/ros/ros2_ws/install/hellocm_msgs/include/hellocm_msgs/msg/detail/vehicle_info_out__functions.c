@@ -48,6 +48,8 @@ hellocm_msgs__msg__VehicleInfoOut__init(hellocm_msgs__msg__VehicleInfoOut * msg)
   // roll_acc
   // pitch_acc
   // yaw_acc
+  // x
+  // y
   return true;
 }
 
@@ -78,6 +80,8 @@ hellocm_msgs__msg__VehicleInfoOut__fini(hellocm_msgs__msg__VehicleInfoOut * msg)
   // roll_acc
   // pitch_acc
   // yaw_acc
+  // x
+  // y
 }
 
 bool
@@ -166,6 +170,14 @@ hellocm_msgs__msg__VehicleInfoOut__are_equal(const hellocm_msgs__msg__VehicleInf
   if (lhs->yaw_acc != rhs->yaw_acc) {
     return false;
   }
+  // x
+  if (lhs->x != rhs->x) {
+    return false;
+  }
+  // y
+  if (lhs->y != rhs->y) {
+    return false;
+  }
   return true;
 }
 
@@ -223,6 +235,10 @@ hellocm_msgs__msg__VehicleInfoOut__copy(
   output->pitch_acc = input->pitch_acc;
   // yaw_acc
   output->yaw_acc = input->yaw_acc;
+  // x
+  output->x = input->x;
+  // y
+  output->y = input->y;
   return true;
 }
 

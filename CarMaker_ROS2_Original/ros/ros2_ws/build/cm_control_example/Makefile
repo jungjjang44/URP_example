@@ -206,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/jsoncpp.o: src/jsoncpp.cpp.o
+
+.PHONY : src/jsoncpp.o
+
+# target to build an object file
+src/jsoncpp.cpp.o:
+	$(MAKE) -f CMakeFiles/cm_control_example.dir/build.make CMakeFiles/cm_control_example.dir/src/jsoncpp.cpp.o
+.PHONY : src/jsoncpp.cpp.o
+
+src/jsoncpp.i: src/jsoncpp.cpp.i
+
+.PHONY : src/jsoncpp.i
+
+# target to preprocess a source file
+src/jsoncpp.cpp.i:
+	$(MAKE) -f CMakeFiles/cm_control_example.dir/build.make CMakeFiles/cm_control_example.dir/src/jsoncpp.cpp.i
+.PHONY : src/jsoncpp.cpp.i
+
+src/jsoncpp.s: src/jsoncpp.cpp.s
+
+.PHONY : src/jsoncpp.s
+
+# target to generate assembly for a file
+src/jsoncpp.cpp.s:
+	$(MAKE) -f CMakeFiles/cm_control_example.dir/build.make CMakeFiles/cm_control_example.dir/src/jsoncpp.cpp.s
+.PHONY : src/jsoncpp.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... cm_control_example"
 	@echo "... cm_control_example_uninstall"
 	@echo "... uninstall"
+	@echo "... src/jsoncpp.o"
+	@echo "... src/jsoncpp.i"
+	@echo "... src/jsoncpp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
